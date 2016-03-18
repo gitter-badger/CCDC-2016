@@ -1,0 +1,2 @@
+powershell -Command "(New-Object Net.WebClient).DownloadFile('http://www.avira.com/downloads/frontendDl/defaultDownload?product=72', 'avira.exe')"
+powershell -Command "Invoke-WebRequest http://www.avira.com/downloads/frontendDl/defaultDownload?product=72 -OutFile avira.exe"
